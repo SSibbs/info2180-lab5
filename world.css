@@ -1,1 +1,93 @@
 /* Add your own styles */
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: lavender; /* Soft light background */
+    color: black; /* Default text color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white; /* White background for content */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+h1 {
+    color: mediumorchid; /* Purple color */
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Label and input styling */
+label {
+    font-size: 1.2em;
+    color: rebeccapurple; /* Lighter purple */
+}
+
+input[type="text"] {
+    padding: 12px;
+    font-size: 16px;
+    width: 75%;
+    border: 2px solid mediumvioletred; /* Purple border */
+    border-radius: 8px;
+    background-color: thistle; /* Light purple background */
+    margin-right: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: mediumvioletred; /* Slightly darker purple on focus */
+    background-color: plum; /* Slightly darker background when focused */
+}
+
+/* Button styling */
+button {
+    padding: 12px 20px;
+    font-size: 1.2em;
+    background-color: mediumvioletred; /* Purple button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: darkviolet; /* Darker purple on hover */
+}
+
+/* Result box styling */
+#result {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: thistle; /* Light purple background */
+    border: 2px solid mediumvioletred; /* Purple border */
+    border-radius: 10px;
+    color: rebeccapurple; /* Lighter purple text */
+    text-align: center;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+        width: 90%;
+    }
+
+    input[type="text"] {
+        width: 60%;
+    }
+
+    button {
+        width: 60%;
+    }
+}
