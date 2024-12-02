@@ -1,14 +1,12 @@
 /* Add your own styles */
-/* Body styling */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: lavender; /* Soft light background */
-    color: black; /* Default text color */
+    background-color: lavender;
+    color: black; 
     margin: 0;
     padding: 0;
 }
 
-/* Container styling */
 .container {
     max-width: 800px;
     margin: 50px auto;
@@ -18,7 +16,6 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Header styling */
 h1 {
     color: mediumorchid; /* Purple color */
     text-align: center;
@@ -26,7 +23,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Label and input styling */
 label {
     font-size: 1.2em;
     color: rebeccapurple; /* Lighter purple */
@@ -38,22 +34,21 @@ input[type="text"] {
     width: 75%;
     border: 2px solid mediumvioletred; /* Purple border */
     border-radius: 8px;
-    background-color: thistle; /* Light purple background */
+    background-color: thistle;
     margin-right: 10px;
     transition: 0.3s ease-in-out;
 }
 
 input[type="text"]:focus {
     outline: none;
-    border-color: mediumvioletred; /* Slightly darker purple on focus */
-    background-color: plum; /* Slightly darker background when focused */
+    border-color: mediumvioletred; 
+    background-color: plum; 
 }
 
-/* Button styling */
 button {
     padding: 12px 20px;
     font-size: 1.2em;
-    background-color: mediumvioletred; /* Purple button */
+    background-color: mediumvioletred;
     color: white;
     border: none;
     border-radius: 8px;
@@ -62,21 +57,19 @@ button {
 }
 
 button:hover {
-    background-color: darkviolet; /* Darker purple on hover */
+    background-color: darkviolet; 
 }
 
-/* Result box styling */
 #result {
     margin-top: 30px;
     padding: 20px;
-    background-color: thistle; /* Light purple background */
-    border: 2px solid mediumvioletred; /* Purple border */
+    background-color: thistle;
+    border: 2px solid mediumvioletred;
     border-radius: 10px;
-    color: rebeccapurple; /* Lighter purple text */
+    color: rebeccapurple;
     text-align: center;
 }
 
-/* Media Query for smaller screens */
 @media (max-width: 600px) {
     .container {
         padding: 15px;
